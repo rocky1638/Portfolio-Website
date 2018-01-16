@@ -1,0 +1,264 @@
+html {
+  overflow-x: hidden;
+  overflow-y: visible;
+  /* height: 100% !important; */
+}
+
+body.home {
+  height: 100% !important;
+  background-color: #3a539b;
+}
+
+body.white {
+  height: 100%;
+  background-color: #feffff;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/** HOMEPAGE **/
+.container-home {
+  display: block;
+  background-color: #3a539b;
+  /* min-height: 100vh !important; */
+  padding-top: 5%;
+}
+
+.content {
+  min-height: 60vh;
+}
+
+.line {
+  margin-top: 30px;
+}
+
+.logo {
+  margin: 5px 5px;
+}
+
+.github {
+  fill: white !important;
+}
+
+.github:hover {
+  fill: #6e5494 !important;
+}
+
+.linkedin {
+  fill: white !important;
+}
+
+.linkedin:hover {
+  fill: #0077b5 !important;
+}
+
+.footer {
+  position: relative;
+}
+
+/** BLOG PAGE **/
+.container-blog {
+  padding-bottom: 50px !important;
+  height: 100vh;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.preview-card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 20vh;
+  margin: 1rem;
+  position: relative;
+  width: 80vw;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.top-half-card {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 15vh;
+}
+
+.read-more {
+  height: auto;
+  margin: 5px 0px 0px 0px;
+}
+
+.preview-card:hover {
+  box-shadow: 0 14px 22px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.blog-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #323333;
+  font-size: 20px;
+}
+
+.blog-title:hover {
+  text-decoration: none;
+}
+
+/** BLOG POST **/
+.container-blogpost {
+  background-color: #e4f1fe;
+  height: 100vh;
+}
+
+.blog-card {
+  text-align: left;
+
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: auto;
+  margin: 10px 5px;
+  position: relative;
+  width: 100%;
+  padding: 5px 10px;
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/** DEFAULTS **/
+.header-text {
+  color: #fff;
+  font-size: 4em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.blog-header-text {
+  color: #323333 !important;
+}
+
+.blog-text {
+  color: #323333;
+  font-family: 'Georgia', serif;
+  line-height: 120%;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.blog-1 {
+  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #212121;
+  margin-bottom: 2px;
+}
+
+.blog-2 {
+  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #323333;
+  margin-bottom: 2px;
+  margin-top: 30px;
+}
+
+.blog-3 {
+  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #424242;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.blog-6 {
+  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #616161;
+  margin-top: 0px;
+}
+
+.blog-text {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #323333;
+  margin-top: 0px;
+  line-height: 140%;
+}
+
+.blog-image-div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.blog-image {
+  max-width: 100%;
+  max-height: 50%;
+  margin-bottom: 3px;
+}
+
+.blue-hr {
+  border: 0;
+  height: 1px;
+  background: #3a539b;
+  background-image: linear-gradient(to right, #ccc, #3a539b, #ccc);
+}
+
+.content-text {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 180%;
+  font-weight: 200;
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin: 100px 10px;
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-user-select: none;
+}
+
+.button:hover {
+  background-color: white;
+  color: #3a539b;
+  text-decoration: none;
+}
+
+.button:focus {
+  outline: none;
+  text-decoration: none;
+  background-color: white;
+  color: #3a539b;
+}
+
+.no-gutters {
+  padding: 0px !important;
+}
+
+#wrapper {
+  min-height: 100%;
+}
+
+/* * {
+  border: 1px solid red;
+} */
