@@ -4,6 +4,8 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './Home';
 import Blog from './Blog';
 import FindYourGrail from './FindYourGrail';
+import Sapling from './Sapling';
+import MusicalInstrument from './MusicalInstrument';
 
 class App extends Component {
   render() {
@@ -14,6 +16,12 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/blog/fyg" component={FindYourGrail} />
+            <Route exact path="/blog/sapling" component={Sapling} />
+            <Route
+              exact
+              path="/blog/musical_instrument"
+              component={MusicalInstrument}
+            />
           </div>
         </BrowserRouter>
       </div>

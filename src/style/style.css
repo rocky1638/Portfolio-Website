@@ -11,7 +11,7 @@ body.home {
 
 body.white {
   height: 100%;
-  background-color: #feffff;
+  background-color: #fafafa;
 }
 
 html,
@@ -38,6 +38,14 @@ body {
 
 .logo {
   margin: 5px 5px;
+}
+
+.email {
+  fill: white !important;
+}
+
+.email:hover {
+  fill: #323333 !important;
 }
 
 .github {
@@ -69,20 +77,35 @@ body {
   overflow-y: visible;
 }
 
-.preview-card {
-  background: #fff;
+.-preview-card {
+  background: #fafafa;
   border-radius: 2px;
   display: inline-block;
-  height: 20vh;
-  margin: 1rem;
+  min-height: 20vh;
+  height: auto;
   position: relative;
-  width: 80vw;
+  width: 100%;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
 
-  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.2s;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23); */
+}
+
+.preview-card {
+  background: #fafafa;
+  border-radius: 2px;
+  border-left: 5px solid #323333;
+  display: inline-block;
+  margin-top: 10px;
+  min-height: 20vh;
+  height: auto;
+  position: relative;
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .top-half-card {
@@ -97,11 +120,12 @@ body {
 }
 
 .preview-card:hover {
-  box-shadow: 0 14px 22px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-left: 5px solid #3a539b;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23); */
 }
 
 .blog-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
   color: #323333;
   font-size: 20px;
 }
@@ -140,6 +164,7 @@ body {
 }
 
 .blog-header-text {
+  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
   color: #323333 !important;
 }
 
@@ -186,7 +211,7 @@ body {
 }
 
 .blog-text {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Georgia', 'Times New Roman', serif;
   font-size: 16px;
   font-weight: 300;
   color: #323333;
@@ -227,11 +252,15 @@ body {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
 .button {
   border: 1px solid white;
   border-radius: 3px;
   padding: 8px 12px;
-  margin: 100px 10px;
+  margin: 10px;
   color: white;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
