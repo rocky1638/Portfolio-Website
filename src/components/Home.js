@@ -11,37 +11,35 @@ class Home extends Component {
       <div className="container-fluid container-home">
         <div className="row">
           <div className="col-xs-12 col-md-6 col-md-offset-3">
-            <h1 className="header-text center">Hi. I'm Rock.</h1>
-            <p style={{ marginBottom: '20px' }} className="center content-text">
+            <h1 style={{ marginBottom: '1em' }} className="header-text left">
+              Hi. I'm Rock.
+            </h1>
+            <p style={{ marginBottom: '2.5em' }} className="left content-text">
               Hi! I'm currently in my first year of Computer Science at the
               University of Waterloo. I'm currently focused on full-stack web
               development, as well as mobile app development.
               <br />
-              <br />
-              When I'm not doing homework or sleeping, I enjoy playing
-              badminton, watching basketball, and playing and singing along to
-              instruments such as guitar and piano.
-              <br />
+              <p style={{ marginTop: '0.5em' }}>
+                When I'm not doing homework or sleeping, I enjoy playing
+                badminton, watching basketball, and playing and singing along to
+                instruments such as guitar and piano.
+                <br />
+              </p>
             </p>
-            <div className="center">
-              {/* <Link className="button" to="/projects">
-                    Projects
-                  </Link> */}
-              <Link className="button" to="/blog">
-                Blog
-              </Link>
+            <div className="right">
               <a
                 target="_blank"
                 rel="noreferrer"
                 className="button"
-                // href="https://s3.us-east-2.amazonaws.com/resume.bucket/Winter-2017_5.pdf"
-                href="../assets/resume.pdf"
-              >
+                href="../assets/resume.pdf">
                 Resumé
               </a>
+              <Link className="button" to="/blog">
+                Blog
+              </Link>
             </div>
 
-            <div className="center footer">
+            <div className="right footer" style={{ marginBottom: '1em' }}>
               <hr className="line" />
               <a href="mailto:rockzhou15@gmail.com">
                 <svg
@@ -53,8 +51,7 @@ class Home extends Component {
                   y="0px"
                   width="40px"
                   height="40px"
-                  viewBox="0 0 511.626 511.626"
-                >
+                  viewBox="0 0 511.626 511.626">
                   <g>
                     <g>
                       <path
@@ -100,8 +97,7 @@ class Home extends Component {
               <a
                 href="http://github.com/rocky1638"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <svg
                   className="logo"
                   version="1.1"
@@ -111,8 +107,7 @@ class Home extends Component {
                   y="0px"
                   width="40px"
                   height="40px"
-                  viewBox="0 0 533.333 533.333"
-                >
+                  viewBox="0 0 533.333 533.333">
                   <g>
                     <path
                       className="github"
@@ -161,8 +156,7 @@ class Home extends Component {
               <a
                 href="http://www.linkedin.com/in/rockz123"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <svg
                   className="logo"
                   version="1.1"
@@ -172,8 +166,7 @@ class Home extends Component {
                   y="0px"
                   width="40px"
                   height="40px"
-                  viewBox="0 0 430.117 430.118"
-                >
+                  viewBox="0 0 430.117 430.118">
                   <g>
                     <path
                       className="linkedin"

@@ -34,7 +34,7 @@ class Blog extends Component {
             </h2>
             <Link to="/blog/fyg">
               <div className="preview-card">
-                <h3 className="blog-2">FindYourGrail</h3>
+                <h3 className="blog-card-header">FindYourGrail</h3>
                 <p className="blog-text">
                   An attempt to simplify the process of buying and selling
                   clothes.
@@ -43,7 +43,7 @@ class Blog extends Component {
             </Link>
             <Link to="/blog/sapling">
               <div className="preview-card">
-                <h3 className="blog-2">Sapling</h3>
+                <h3 className="blog-card-header">Sapling</h3>
                 <p className="blog-text">
                   A web app to facilitate more efficient practicing.
                 </p>
@@ -52,11 +52,11 @@ class Blog extends Component {
           </div>
           <div className="col-xs-12 col-sm-4 left">
             <h2 className="blog-1">
-              <b>Musings</b>
+              <b>Life</b>
             </h2>
             <Link to="/blog/musical_instrument">
               <div className="preview-card">
-                <h3 className="blog-2">The Importance of Music</h3>
+                <h3 className="blog-card-header">The Importance of Music</h3>
                 <p className="blog-text">
                   A slightly biased view on why everyone should learn to play at
                   least one musical instrument.
