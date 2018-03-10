@@ -6,6 +6,7 @@ import Blog from './Blog';
 import FindYourGrail from './FindYourGrail';
 import Sapling from './Sapling';
 import MusicalInstrument from './MusicalInstrument';
+import Consensys from './Consensys';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/blog/fyg" component={FindYourGrail} />
             <Route exact path="/blog/sapling" component={Sapling} />
+            <Route exact path="/blog/consensys" component={Consensys} />
             <Route
               exact
               path="/blog/musical_instrument"

@@ -54,7 +54,17 @@ class Blog extends Component {
             <h2 className="blog-1">
               <b>Life</b>
             </h2>
-            <Link to="/blog/musical_instrument">
+            <Link to="/blog/consensys">
+              <div className="preview-card">
+                <h3 className="blog-card-header">Consensys</h3>
+                <p className="blog-text">
+                  Weekly updates of my first co-op job experience at the
+                  University of Waterloo.
+                </p>
+              </div>
+            </Link>
+
+            {/* <Link to="/blog/musical_instrument">
               <div className="preview-card">
                 <h3 className="blog-card-header">The Importance of Music</h3>
                 <p className="blog-text">
@@ -62,7 +72,7 @@ class Blog extends Component {
                   least one musical instrument.
                 </p>
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

@@ -153,8 +153,10 @@ class Sapling extends Component {
                 <br />
                 <br />
                 I'm definitely looking forward to learning more about all
-                aspects of web development at my first co-op job at Consensys!
-                Read all about that{' '}
+                aspects of web development at my first co-op job at{' '}
+                <a href="https://new.consensys.net/" target="_blank">
+                  Consensys
+                </a>! Read all about that{' '}
                 <Link to="/blog/consensys" target="_blank">
                   here
                 </Link>.
