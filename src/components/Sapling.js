@@ -17,12 +17,11 @@ class Sapling extends Component {
               <h2 className="blog-2">Initial Idea & Goals</h2>
               <p className="blog-text">
                 Just a couple of days after finishing working on{' '}
-                <Link to="/blog/fyg" target="_blank">
-                  FindYourGrail
-                </Link>, I was itching to start work on another project, so I
-                could cement my newfound knowledge and skills, as well as redeem
-                myself, in terms of creating a product that felt{' '}
-                <i>user-friendly</i> and <i>cohesive</i>.
+                <Link to="/blog/fyg">FindYourGrail</Link>, I was itching to
+                start work on another project, so I could cement my newfound
+                knowledge and skills, as well as redeem myself, in terms of
+                creating a product that felt <i>user-friendly</i> and{' '}
+                <i>cohesive</i>.
                 <br />
                 <br />
                 Before I get into the specifics of the app, you might be
@@ -50,10 +49,9 @@ class Sapling extends Component {
                   The Water Boys
                 </a>, a capella group where I needed to practice bi-weekly.
                 (More on that amazing experience{' '}
-                <Link target="_blank" to="/blog/waterboys">
-                  here.
-                </Link>) All in all, I felt that I could personally benefit from
-                such an app, and had no doubt that others could too.
+                <Link to="/blog/waterboys">here.</Link>) All in all, I felt that
+                I could personally benefit from such an app, and had no doubt
+                that others could too.
               </p>
               <h2 className="blog-2">An Overview</h2>
               <p className="blog-text">
@@ -156,10 +154,7 @@ class Sapling extends Component {
                 aspects of web development at my first co-op job at{' '}
                 <a href="https://new.consensys.net/" target="_blank">
                   Consensys
-                </a>! Read all about that{' '}
-                <Link to="/blog/consensys" target="_blank">
-                  here
-                </Link>.
+                </a>! Read all about that <Link to="/blog/consensys">here</Link>.
                 <br />
                 <br />
                 Anyways, that's all I have to say for now. If you'd like to get

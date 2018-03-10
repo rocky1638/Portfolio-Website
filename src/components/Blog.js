@@ -64,6 +64,15 @@ class Blog extends Component {
               </div>
             </Link>
 
+            <Link to="/blog/waterboys">
+              <div className="preview-card">
+                <h3 className="blog-card-header">The Water Boys</h3>
+                <p className="blog-text">
+                  A look back at an action-packed term of a capella.
+                </p>
+              </div>
+            </Link>
+
             {/* <Link to="/blog/musical_instrument">
               <div className="preview-card">
                 <h3 className="blog-card-header">The Importance of Music</h3>
