@@ -14,7 +14,7 @@ class Sapling extends Component {
             </div>
             <hr className="blue-hr" />
             <div>
-              <h2 className="blog-2">Initial Idea & Goals</h2>
+              <h2 className="blog-2 bold">Initial Idea & Goals</h2>
               <p className="blog-text">
                 Just a couple of days after finishing working on{' '}
                 <Link to="/blog/fyg">FindYourGrail</Link>, I was itching to
@@ -32,7 +32,7 @@ class Sapling extends Component {
                 <br />
                 <br />
                 You see, I've been practicing piano through the{' '}
-                <a target="_blank" href="https://www.rcmusic.com/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.rcmusic.com/">
                   Royal Conservatory of Music (RCM)
                 </a>{' '}
                 for over a decade, and in the last couple years, I started to
@@ -45,7 +45,7 @@ class Sapling extends Component {
                 <br />
                 <br />
                 To add to my motivations, I had just joined{' '}
-                <a target="_blank" href="https://www.facebook.com/waterboysuw/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/waterboysuw/">
                   The Water Boys
                 </a>, a capella group where I needed to practice bi-weekly.
                 (More on that amazing experience{' '}
@@ -53,7 +53,7 @@ class Sapling extends Component {
                 I could personally benefit from such an app, and had no doubt
                 that others could too.
               </p>
-              <h2 className="blog-2">An Overview</h2>
+              <h2 className="blog-2 bold">An Overview</h2>
               <p className="blog-text">
                 In general, the goal of the app was to have pages to allow users
                 to create new categories of practice, and then to log practices,
@@ -127,7 +127,7 @@ class Sapling extends Component {
                   </div>
                 </div>
               </p>
-              <h2 className="blog-2">What's Next?</h2>
+              <h2 className="blog-2 bold">What's Next?</h2>
               <p className="blog-text">
                 Overall, I'm quite happy with how this application turned out.
                 Although it was quite simple, I was able to cement my knowledge
@@ -152,7 +152,7 @@ class Sapling extends Component {
                 <br />
                 I'm definitely looking forward to learning more about all
                 aspects of web development at my first co-op job at{' '}
-                <a href="https://new.consensys.net/" target="_blank">
+                <a href="https://new.consensys.net/" rel="noopener noreferrer" target="_blank">
                   Consensys
                 </a>! Read all about that <Link to="/blog/consensys">here</Link>.
                 <br />

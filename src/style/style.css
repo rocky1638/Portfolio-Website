@@ -17,7 +17,12 @@ body.white {
 html,
 body {
   margin: 0px;
-  padding: 0px;
+  padding: 20px 5px;
+}
+
+@font-face {
+  font-family: 'Charter';
+  src: url('./fonts/charter-400-normal.woff') format('woff');
 }
 
 /** HOMEPAGE **/
@@ -195,7 +200,7 @@ body {
 }
 
 .blog-text {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Charter', 'Georgia', serif;
   font-size: 16px;
   font-weight: 300;
   color: #323333;
@@ -224,6 +229,12 @@ body {
   max-width: 100%;
   max-height: 50%;
   margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 767px) {
+  .blog-image {
+    border-radius: 4px;
+  }
 }
 
 .blue-hr {
@@ -276,6 +287,10 @@ body {
   text-decoration: none;
   background-color: white;
   color: #3a539b;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 p a {

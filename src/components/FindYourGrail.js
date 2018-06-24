@@ -50,7 +50,7 @@ class FindYourGrail extends Component {
                 As high school rolled around, I started getting more and more
                 interested in the world of fashion, and more specifically, the
                 subculture known as{' '}
-                <a target="_blank" href="http://reddit.com/r/streetwear">
+                <a target="_blank" rel="noopener noreferrer" href="http://reddit.com/r/streetwear">
                   streetwear
                 </a>. Realizing that I finally had the core skills I needed to
                 design an app that <i>actually had users</i>, I set out to make
@@ -61,7 +61,7 @@ class FindYourGrail extends Component {
                 Of course, being as interested as I was in streetwear, I knew
                 that there were already many sites in which people could buy and
                 sell clothes, including, prominently,{' '}
-                <a target="_blank" href="http://grailed.com">
+                <a target="_blank" rel="noopener noreferrer" href="http://grailed.com">
                   Grailed
                 </a>.
                 <div className="blog-image-div center">

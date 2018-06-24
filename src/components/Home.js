@@ -29,7 +29,7 @@ class Home extends Component {
             <div className="right">
               <a
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="button"
                 href="../assets/resume.pdf">
                 Resumé
