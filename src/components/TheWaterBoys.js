@@ -9,13 +9,13 @@ class FindYourGrail extends Component {
     return (
       <div className="container-fluid" style={{ paddingBottom: '25px' }}>
         <div className="row">
-          <div className="col-xs-12 col-sm-8 col-sm-offset-2">
+          <div className="col-xs-12 col-sm-6 col-sm-offset-3">
             <div>
               <h1 className="blog-1">
                 <b>The Water Boys</b>
               </h1>
               <h3 className="blog-3">An unforgettable a capella experience.</h3>
-              <h6 className="blog-6">Published March xx</h6>
+              <h6 className="blog-6">Published June 12</h6>
             </div>
             <hr className="blue-hr" />
             <div>
@@ -125,7 +125,7 @@ class FindYourGrail extends Component {
               </div>
               <div className="blog-image-div center">
                 <img src="/assets/waterboys/waterboys5.jpg" alt="Me being emotional" className="blog-image"/>
-                <h6 className="blog-6">Me being emotional</h6>
+                <h6 className="blog-6">My best MJ impression</h6>
               </div>
               <p className="blog-text">
                 With the past two performances under our belt, we felt more and more ready to crush our ICCA Semifinals performance.

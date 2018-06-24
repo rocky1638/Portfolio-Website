@@ -19,7 +19,7 @@ class Blog extends Component {
 
   render() {
     return (
-      <div className="container-fluid container-blog">
+      <div className="container-fluid container-blog" style={{overflowY: "auto"}}>
         <div className="row">
           <div className="col-xs-12 col-sm-8 col-sm-offset-2 left">
             <h1 className="header-text blog-header-text">
@@ -28,9 +28,13 @@ class Blog extends Component {
             <hr className="blue-hr" />
           </div>
 
-          <div className="col-xs-12 col-sm-4 col-sm-offset-2 left">
+          <div className="col-xs-12 col-sm-8 col-sm-offset-2 left">
             <h2 className="blog-1">
-              <b>Projects</b>
+            <span className="highlight-container">
+              <span className="highlight">
+                Projects
+              </span>
+            </span>
             </h2>
             <Link to="/blog/fyg">
               <div className="preview-card">
@@ -41,6 +45,7 @@ class Blog extends Component {
                 </p>
               </div>
             </Link>
+            <hr style={{margin: "0"}}/>
             <Link to="/blog/sapling">
               <div className="preview-card">
                 <h3 className="blog-card-header">Sapling</h3>
@@ -49,10 +54,12 @@ class Blog extends Component {
                 </p>
               </div>
             </Link>
-          </div>
-          <div className="col-xs-12 col-sm-4 left">
             <h2 className="blog-1">
-              <b>Life</b>
+            <span className="highlight-container">
+              <span className="highlight">
+                Life
+              </span>
+              </span>
             </h2>
             <Link to="/blog/consensys">
               <div className="preview-card">
@@ -63,7 +70,7 @@ class Blog extends Component {
                 </p>
               </div>
             </Link>
-
+            <hr style={{margin: "0"}}/>
             <Link to="/blog/waterboys">
               <div className="preview-card">
                 <h3 className="blog-card-header">The Water Boys</h3>
@@ -72,6 +79,8 @@ class Blog extends Component {
                 </p>
               </div>
             </Link>
+          </div>
+            
 
             {/* <Link to="/blog/musical_instrument">
               <div className="preview-card">
@@ -84,7 +93,6 @@ class Blog extends Component {
             </Link> */}
           </div>
         </div>
-      </div>
     );
   }
 }

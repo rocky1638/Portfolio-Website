@@ -9,7 +9,7 @@ class FindYourGrail extends Component {
     return (
       <div className="container-fluid" style={{ paddingBottom: '25px' }}>
         <div className="row">
-          <div className="col-xs-12 col-sm-8 col-sm-offset-2">
+          <div className="col-xs-12 col-sm-6 col-sm-offset-3">
             <div>
               <h1 className="blog-1">
                 <b>Find Your Grail</b>
