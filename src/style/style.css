@@ -65,17 +65,8 @@ body {
 }
 
 /** BLOG PAGE **/
-.container-blog {
-  padding-bottom: 50px !important;
-  height: 100vh;
-  text-align: center;
-  overflow-x: hidden;
-}
-
 .preview-card {
   background: #fafafa;
-  /* border-radius: 2px;
-  border-left: 5px solid #323333; */
   display: inline-block;
   margin-top: 2px;
   margin-bottom: 5px;
@@ -84,7 +75,6 @@ body {
   position: relative;
   width: 100%;
   padding-bottom: 5px;
-  /* padding-left: 15px; */
   padding-right: 15px;
 }
 
@@ -100,7 +90,7 @@ body {
 }
 
 .blog-title {
-  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   color: #323333;
   font-size: 20px;
 }
@@ -134,14 +124,15 @@ body {
 .header-text {
   color: #111;
   font-size: 4em;
-  font-family: 'source-sans-pro', 'Futura', sans-serif;
+  font-family: 'Source Sans Pro', 'Futura', sans-serif;
   font-weight: 600;
 }
 
 .blog-header-text {
   font-size: 6em;
-  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   color: #323333 !important;
+  letter-spacing: 0px;
 }
 
 .blog-text {
@@ -153,15 +144,15 @@ body {
 }
 
 .blog-1 {
-  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 700;
   color: #212121;
   margin-bottom: 2px;
 }
 
 .blog-2 {
-  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   font-size: 28px;
   font-weight: 400;
   color: #323333;
@@ -170,7 +161,7 @@ body {
 }
 
 .blog-3 {
-  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   font-size: 22px;
   font-weight: 300;
   color: #424242;
@@ -179,7 +170,7 @@ body {
 }
 
 .blog-6 {
-  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #616161;
@@ -196,7 +187,7 @@ body {
 }
 
 .blog-card-header {
-  font-family: 'source-sans-pro', 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 400;
   color: #323333;
@@ -224,20 +215,6 @@ body {
   }
 }
 
-/* mark {
-  display: inline-block;
-  line-height: 0em;
-  padding-bottom: 0.4em;
-}
-
-.mark-uw {
-  background-color: #FFD54F;
-}
-
-.mark-blue {
-  background-color: rgba(58, 83, 155, 0.5);
-} */
-
 .blue-hr {
   width: 10%;
   border: 4px solid #3a539b;
@@ -249,7 +226,7 @@ body {
 .content-text {
   color: #111;
   font-size: 1.25em;
-  font-family: 'source-sans-pro', 'Georgia', monospace;
+  font-family: 'Source Sans Pro', 'Georgia', monospace;
   line-height: 120%;
   font-weight: 400;
 }
@@ -270,7 +247,7 @@ body {
   margin: 10px 15px 10px 0;
   color: #111;
   font-size: 16px;
-  font-family: 'source-sans-pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-user-select: none;
   transition: 0.15s;
   text-decoration: underline;

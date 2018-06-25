@@ -19,7 +19,7 @@ class Blog extends Component {
 
   render() {
     return (
-      <div className="container-fluid container-blog" style={{overflowY: "auto"}}>
+      <div className="container-fluid" style={{overflowY: "auto"}}>
         <div className="row">
           <div className="col-xs-12 col-sm-8 col-sm-offset-2 left">
             <h1 className="header-text blog-header-text">

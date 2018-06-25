@@ -17,7 +17,7 @@ class FindYourGrail extends Component {
               <h3 className="blog-3">An unforgettable a capella experience.</h3>
               <h6 className="blog-6">Published June 12</h6>
             </div>
-            <hr className="blue-hr" />
+            <hr className="blue-hr" style={{border: "4px solid #0155AB"}}/>
             <div>
               <p className="blog-text">
                 <b>

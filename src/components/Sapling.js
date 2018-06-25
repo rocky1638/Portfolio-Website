@@ -12,7 +12,7 @@ class Sapling extends Component {
               <h3 className="blog-3">For people serious about practicing.</h3>
               <h6 className="blog-6">Published March 10, 2018</h6>
             </div>
-            <hr className="blue-hr" />
+            <hr className="blue-hr" style={{border: "4px solid #8BC34A"}}/>
             <div>
               <h2 className="blog-2 bold">Initial Idea & Goals</h2>
               <p className="blog-text">

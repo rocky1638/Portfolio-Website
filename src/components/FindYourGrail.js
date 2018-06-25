@@ -17,7 +17,7 @@ class FindYourGrail extends Component {
               <h3 className="blog-3">My first full-stack web application.</h3>
               <h6 className="blog-6">Published January 15, 2018</h6>
             </div>
-            <hr className="blue-hr" />
+            <hr className="blue-hr" style={{border: "4px solid #ffd014"}}/>
             <div>
               <h2 className="blog-2">
                 <b>First, some background...</b>

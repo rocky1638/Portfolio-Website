@@ -17,7 +17,7 @@ class ConsenSys extends Component {
               <h3 className="blog-3">My first co-op.</h3>
               <h6 className="blog-6">May 2018 - August 2018</h6>
             </div>
-            <hr className="blue-hr" />
+            <hr className="blue-hr" style={{border: "4px solid #081B40"}}/>
             <div>
               <h2 className="blog-2">
                 <b>A Short Intro</b>

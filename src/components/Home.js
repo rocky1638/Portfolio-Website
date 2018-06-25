@@ -28,16 +28,16 @@ class Home extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button"
-                href="../assets/resume.pdf">
+                href="/assets/resume.pdf">
                    <span className="highlight-container-resume">
-                  <span style={{fontWeight: "500"}} className="highlight">
+                  <span style={{fontWeight: "600"}} className="highlight">
                 Resumé
                 </span>
                 </span>
               </a>
               <Link className="button" to="/blog">
               <span className="highlight-container">
-                  <span style={{fontWeight: "500"}} className="highlight">
+                  <span style={{fontWeight: "600"}} className="highlight">
                 Blog
                 </span>
                 </span>
@@ -48,7 +48,7 @@ class Home extends Component {
                 target="_blank"
                 rel="noopener noreferrer">
                 <span className="highlight-container-github">
-                  <span style={{fontWeight: "500"}} className="highlight">
+                  <span style={{fontWeight: "600"}} className="highlight">
                   Github
                   </span>
                 </span>
