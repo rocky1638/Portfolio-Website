@@ -7,7 +7,7 @@ class ConsenSys extends Component {
 
   render() {
     return (
-      <div className="container-fluid" style={{ paddingBottom: '25px' }}>
+      <div className="container-fluid slide-in-from-bottom" style={{ paddingBottom: '25px' }}>
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-sm-offset-3">
             <div>
@@ -56,7 +56,83 @@ class ConsenSys extends Component {
                 Meridio is planning on launching their private beta soon for accredited investors, and I can't wait to contribute and help get the release out in good shape and on time!
               </p>
               <h2 className="blog-2"><b>June 1 — June 30</b></h2>
-                <p className="blog-3">Coming Soon...</p>
+                <p className="blog-text">
+                  <b>Note: I'm writing this near the end of August...oops 😅</b>
+                  <br/>
+                  <br/>
+                  June was a pretty good month for me. John ended up going to the Himalayas for vacation, leaving me as the main frontend developer. In this time, I got to work on some of Lucia's designs, including the new modal design as well as the new sidebar. Here's some screenshots of those:
+                </p>
+                <div className="blog-image-div center">
+                <img
+                      className="blog-image"
+                      src="/assets/consensys/error-modal.png"
+                      alt="Error Modal"
+                    />
+                <h6 className="blog-6">Error Modal</h6>
+              </div>
+              <div className="blog-image-div center">
+                <img
+                      className="blog-image"
+                      src="/assets/consensys/sidebar.png"
+                      alt="Sidebar"
+                    />
+                <h6 className="blog-6">The New Sidebar</h6>
+              </div>
+              <p className="blog-text">
+                  Overall, I'd say I started feeling like a real member of the team at this point, especially with the level of responsibility I had to take on during John's absence.
+                </p>
+              <h2 className="blog-2"><b>July 1 — July 30</b></h2>
+              <p className="blog-text">
+                July was a lot of the same, just with even bigger features. The main feature that I worked on during july was the <b>Sponsor Dashboard.</b> It was a comprehensive page that offered token/asset sponsors to view the performance of their asset, and see information such as a history transactions, and all the investors that were currently trading their property/token.
+                <br/>
+                <br/>
+                It was quite a large page with a bunch of new components, so I definitely feel like it helped me improve my technical skills. Here's a couple screenshots from that page:
+              </p>
+              <div className="blog-image-div center">
+                <img
+                      className="blog-image"
+                      src="/assets/consensys/sponsor-dashboard1.png"
+                      alt="Sponsor Dashboard"
+                    />
+                <h6 className="blog-6">Sponsor Dashboard</h6>
+              </div>
+              <div className="blog-image-div center">
+                <img
+                      className="blog-image"
+                      src="/assets/consensys/sponsor-dashboard2.png"
+                      alt="Anotha one"
+                    />
+                <h6 className="blog-6">Anotha one</h6>
+              </div>
+              <h2 className="blog-2"><b>August 1 - August 30</b></h2>
+              <p className="blog-text">
+                This was my last month working for Meridio <i>(for now)</i>, and it was definitely a bittersweet month. I couldn't help but feel sad that I was leaving this project, as I have to admit that at this point, I feel decently committed to the success and future of the company.
+                <br/>
+                <br/>
+                This feeling was even further pushed along when I flew out to New York to meet the team. <b>Everyone is so nice 😁.</b>
+                <br/>
+                <br/>
+                This month has been just as busy, with me working on new features such as a new and improved profile/wallets page as well as brand new user onboarding, to teach user's how to install and get set up with MetaMask.
+                <br/>
+                <br/>
+                To be honest though, instead of talking about those things, I'd rather just post a couple pictures of New York 🗽.
+              </p>
+              <div className="blog-image-div center">
+                <img
+                      className="blog-image"
+                      src="/assets/consensys/newyork2.jpeg"
+                      alt="Walking to the office"
+                    />
+                <h6 className="blog-6">Walking to the office</h6>
+              </div>
+              <div className="blog-image-div center">
+                <img
+                      className="blog-image"
+                      src="/assets/consensys/newyork1.jpeg"
+                      alt="Sunset from McKibbin Lofts roof"
+                    />
+                <h6 className="blog-6">Sunset from the roof of McKibbin Lofts</h6>
+              </div>
             </div>
           </div>
         </div>

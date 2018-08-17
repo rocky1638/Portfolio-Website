@@ -359,3 +359,42 @@ p a {
 ::-webkit-scrollbar { 
   display: none; 
 }
+
+.slide-in-from-bottom {
+  animation: slide-in-from-bottom 1.2s ease-in-out;
+  -webkit-animation: slide-in-from-bottom 1.2s ease-in-out;
+  -moz-animation: slide-in-from-bottom 1.2s ease-in-out;
+}
+
+@keyframes slide-in-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide-in-from-bottom {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-moz-keyframes slide-in-from-bottom {
+  from {
+    opacity: 0;
+    -moz-transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    -moz-transform: translateY(0%);
+  }
+}

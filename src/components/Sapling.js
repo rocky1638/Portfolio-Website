@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Sapling extends Component {
   render() {
     return (
-      <div className="container-fluid" style={{ paddingBottom: '25px' }}>
+      <div className="container-fluid slide-in-from-bottom" style={{ paddingBottom: '25px' }}>
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-sm-offset-3">
             <div>
