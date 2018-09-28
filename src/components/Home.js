@@ -12,7 +12,7 @@ class Home extends Component {
             </h1>
             <hr className="blue-hr"/>
             <p style={{ marginBottom: '2.5em' }} className="left content-text">
-              Hi! I'm currently in my first year of Computer Science at the{' '} University of Waterloo
+              Hi! I'm currently in my second year of Computer Science at the{' '} University of Waterloo
               . I'm currently focused on full-stack web
               development (and dabbling in a bit of design).
               <br />
